@@ -1,0 +1,142 @@
+﻿
+
+{% load static %}
+
+<html xmlns="{% static 'http://www.w3.org/1999/xhtml' %}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Bootstrap Advance Admin Template</title>
+    <link href="{% static '/your-path-to-fontawesome/css/fontawesome.css' %}" rel="stylesheet">
+    <link href="{% static '/your-path-to-fontawesome/css/brands.css' %}" rel="stylesheet">
+    <link href="{% static '/your-path-to-fontawesome/css/solid.css' %}" rel="stylesheet">
+    <!-- BOOTSTRAP STYLES-->
+    <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="{% static 'assets/css/font-awesome.css' %}" rel="stylesheet" />
+       <!--CUSTOM BASIC STYLES-->
+    <link href="{% static 'assets/css/basic.css' %}" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="{% static 'assets/css/custom.css' %}" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href="{% static 'http://fonts.googleapis.com/css?family=Open+Sans' %}" rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="header-right">
+
+                <a href="login.html" class="btn btn-danger" title="Logout"><i class="fa fa-power-off fa-3x" aria-hidden="true"></i></a>
+
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                   
+                    <li>
+                        <a href="#"><i class="fa fa-folder" aria-hidden="true"></i>Dossiers <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="panel-tabs.html"><i class="fa fa-briefcase" aria-hidden="true"></i>Affaires</a>
+                            </li>
+                            <li>
+                                <a href="notification.html"><i class="fa fa-plane" aria-hidden="true"></i>Tourisme</a>
+                            </li>                           
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Contact <span class=""></span></a>
+                         
+                    </li>
+                    <li>
+                        <a href="table.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Newsletter </a>
+                        
+                    </li>
+                     <li>
+                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                            Profile<span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                           
+                             <li>
+                                <a href="form.html"><i class="fa fa-eye" aria-hidden="true"></i>Voir </a>
+                            </li>
+                             <li>
+                                <a href="form-advance.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Modifier</a>
+                            </li>
+                            <li>
+                                <a href="form-advance.html"><i class="fa fa-power-off" aria-hidden="true"></i>Deconnecter</a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="main-box mb-red">
+                            <a href="#">
+                                <i class="fa fa-folder fa-3x" aria-hidden="true"></i><span class="fa arrow"></span>
+                                <h5>Dossiers</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="main-box mb-dull">
+                            <a href="#"><i class="fa fa-user fa-3x" aria-hidden="true"></i><span class=" "></span></a>
+                           
+                            <h5>Contact</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="main-box mb-pink">
+                            <a href="table.html"><i class="fa fa-newspaper-o fa-3x" aria-hidden="true"></i></a>
+                            <h5>Newsletter</h5>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row" style="padding-bottom: 100px; `">   
+                </div>
+                <!--/.ROW-->
+
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+
+    <div id="footer-sec">
+        &copy; 2014 YourCompany | Design By : <a href="{% static 'http://www.binarytheme.com/' %}" target="_blank">BinaryTheme.com</a>
+    </div>
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="{% static 'assets/js/jquery-1.10.2.js' %}"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="{% static 'assets/js/bootstrap.js' %}"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="{% static 'assets/js/jquery.metisMenu.js' %}"></script>
+       <!-- CUSTOM SCRIPTS -->
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    
+    <script src= "https://use.fontawesome.com/8c14f362f7.js"></script>
+
+</body>
+</html>
+
+
+
+
+https://github.com/BARKA123/Admin/tree/main/admins
